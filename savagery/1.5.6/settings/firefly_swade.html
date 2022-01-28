@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Setting Rules for Firefly :: My Demo Site</title>
+    <link rel="canonical" href="https://docs.demo.com/savagery/1.5.6/settings/firefly_swade.html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://docs.demo.com">My Demo Site</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="savagery" data-version="1.5.6">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Savage Worlds Content</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Home page</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="firefly_swade.html">Firefly</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="Savage_Musketeers.html">Musketeers</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="Savage_Three_Rocketeers.html">Rocketeers</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="two_fisted_pulp_SWADE.html">Classic Pulp</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="dtoa_chases.html">Pulp Chases</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../rules/SWADE_gear_master.html">Gear List</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../rules/wealth_sw.html">Wealth</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../ops/VTT_considerations.html">VTT Play</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Savage Worlds Content</span>
+    <span class="version">1.5.6</span>
+  </div>
+  <ul class="components">
+    <li class="component">
+      <a class="title" href="../../../component-b/2.0/index.html">Component B</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../component-b/2.0/index.html">2.0</a>
+        </li>
+        <li class="version">
+          <a href="../../../component-b/1.0/index.html">1.0</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component is-current">
+      <a class="title" href="../index.html">Savage Worlds Content</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">1.5.6</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../../component-b/2.0/index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Savage Worlds Content</a></li>
+    <li><a href="firefly_swade.html">Firefly</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/RoxvilleRooster/savagery/edit/master/modules/settings/pages/firefly_swade.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Setting Rules for Firefly</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_setting_rules">Setting rules</a>
+<ul class="sectlevel3">
+<li><a href="#_hindrance_trappings">Hindrance trappings</a></li>
+<li><a href="#_favors_contacts_and_perks">Favors, Contacts, and Perks</a></li>
+<li><a href="#_heists">Heists</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_setting_rules"><a class="anchor" href="#_setting_rules"></a><a class="link" href="#_setting_rules">Setting rules</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The settings rules assume that the players play the crew like that of the <em>Serenity</em>.</p>
+</div>
+<div class="paragraph">
+<p>All heroes have the Poverty hindrance. The crew&#8217;s financial situation is almost always tight and near broke. Income is uncertain.</p>
+</div>
+<div class="paragraph">
+<p>The following setting rules from SWADE are fitting for a Savage Worlds Firefly campaign:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Conviction (SWADE 136)</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_hindrance_trappings"><a class="anchor" href="#_hindrance_trappings"></a><a class="link" href="#_hindrance_trappings">Hindrance trappings</a></h4>
+<div class="paragraph">
+<p>Suggested re-skins of existing hindrances include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Trap the Outsider (Minor) hindrance as "Browncoat"</p>
+</li>
+<li>
+<p>Trap the Clueless (Major) hindrance as "Greenhorn"</p>
+</li>
+<li>
+<p>Trap the Obligation (Minor or Major) hindrance as "Debt" or "In Debt to&#8230;&#8203;"</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_favors_contacts_and_perks"><a class="anchor" href="#_favors_contacts_and_perks"></a><a class="link" href="#_favors_contacts_and_perks">Favors, Contacts, and Perks</a></h3>
+<div class="sect3">
+<h4 id="_favors"><a class="anchor" href="#_favors"></a><a class="link" href="#_favors">Favors</a></h4>
+<div id="favors" class="sidebarblock">
+<div class="content">
+<div class="title">Where these rules come from</div>
+<div class="paragraph">
+<p>These rules are from Eric Lamoureux and <em>Just Insert Imagination</em>'s <em>Wiseguys</em> but they should work really well for the Firefly setting. Buy <em>Wiseguys</em> on <a href="https://www.drivethrurpg.com/product/290098/Wiseguys-The-Savage-Guide-to-Organized-Crime" class="external" target="_blank" rel="noopener">DTRPG</a>.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>When spending a Benny to Influence the Story, a player can do things like make up a new acquaintance to gain a clue, information, gear, or access to a restricted area. In this instance, the hero recalls that an old friend still owes a favor. This assumes that the acquaintance has a Friendly attitude and is available to help.</p>
+</div>
+<div class="paragraph">
+<p>Only allow the player group to use the <em>Influence the Story</em> rule for a Favor once per session.</p>
+</div>
+<div class="paragraph">
+<p>After the acquaintance does the favor, he fades into the background unless a player spends a Benny to add the character to his list of <em>Contacts</em>. Now that this contact has performed the favor, the contact&#8217;s Reaction to the hero returns to Neutral.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_contacts"><a class="anchor" href="#_contacts"></a><a class="link" href="#_contacts">Contacts</a></h4>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Where these rules come from</div>
+<div class="paragraph">
+<p>These rules are from Eric Lamoureux and <em>Just Insert Imagination</em>'s  <em>Wiseguys</em> but they fit for the Firefly setting. Buy <em>Wiseguys</em> on <a href="https://www.drivethrurpg.com/product/290098/Wiseguys-The-Savage-Guide-to-Organized-Crime" class="external" target="_blank" rel="noopener">DTRPG</a>.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Contacts are different from the Connections edge. A contact provides personal and specialized assistance.</p>
+</div>
+<div class="paragraph">
+<p>You can draw a card from a deck and then the GM can refer to chapter six in  <em>Wiseguys</em> to generate a contact for the game.
+Talk to your GM about creating a contact.</p>
+</div>
+<div class="paragraph">
+<p>You can provide a hero a contact in the following ways:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>By spending a Benny to convert a character who performed a Favor for the hero into a Contact (see <a href="#favors">Favors</a>).</p>
+</li>
+<li>
+<p>By spending a Benny to turn a character that the hero met through the Connections edge into a Contact.</p>
+</li>
+<li>
+<p>By meeting people during the campaign, based on the GM&#8217;s discretion and roleplay.</p>
+</li>
+<li>
+<p>As a reward for completing an assignment.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Contacts are Wild Cards, even if they really came into the story as Extras. A player is allowed to call on one Contact per session. Contacts do not wait around and may not always be available when called on. Reciprocity is important; a contact expects the hero to return a favor when called. A loyal contact can turn if the hero mistreats him; heroes need to nurture and maintain relationships with contacts.</p>
+</div>
+<div class="paragraph">
+<p>A hero uses the Reactions table to represent the status of the relationship between a the hero and his Contact. The initial attitude of the contact depends on how the relationship starts; it is typically Neutral.</p>
+</div>
+<div class="sect4">
+<h5 id="_maintaining_the_relationships_with_a_contact"><a class="anchor" href="#_maintaining_the_relationships_with_a_contact"></a><a class="link" href="#_maintaining_the_relationships_with_a_contact">Maintaining the relationships with a Contact</a></h5>
+<div class="paragraph">
+<p>If the attitude of a Contact falls to Hostile, the contact becomes a foe to the hero and the hero gains the Enemy (Minor) Hindrance.</p>
+</div>
+<div class="paragraph">
+<p>The hero can also develop the relationship with the contact and improve the attitude of the Contact’s to Helpful. In this case, the hero gets access to a “Perk” from the Contact.</p>
+</div>
+<div class="paragraph">
+<p>At the session&#8217;s start, the GM can ask each player who&#8217;s hero has a Contact to draw a card from the Action Deck. If the player draws a face card, check the Contact Event Table (<a href="https://www.drivethrurpg.com/product/290098/Wiseguys-The-Savage-Guide-to-Organized-Crime" class="external" target="_blank" rel="noopener">Wiseguys</a>, 33).</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_perks"><a class="anchor" href="#_perks"></a><a class="link" href="#_perks">Perks</a></h4>
+<div class="paragraph">
+<p>A Perk is a service, favor, or item that a Contact offers a hero that goes beyond what a Contact generally provides a hero.</p>
+</div>
+<div class="paragraph">
+<p>Beware, a perk can come with strings attached.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_heists"><a class="anchor" href="#_heists"></a><a class="link" href="#_heists">Heists</a></h3>
+<div class="paragraph">
+<p>Firefly is all about the crew attempting to pull heists.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Where these rules come from</div>
+<div class="paragraph">
+<p>These rules are derived from Eric Lamoureux and <em>Just Insert Imagination</em>'s <em>Wiseguys</em>, with some minor adjustments that suit the flavor of the Firefly setting. Buy <em>Wiseguys</em> on <a href="https://www.drivethrurpg.com/product/290098/Wiseguys-The-Savage-Guide-to-Organized-Crime" class="external" target="_blank" rel="noopener">DTRPG</a>.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Use Dramatic Tasks for running heist scenes with the option Multiple Skills.
+For each step in the heist use a different skill and have a different character perform that skill until all the key characters have their turn.</p>
+</div>
+<div class="paragraph">
+<p>You can use a Quick Encounter for a heist that is either (a) a minor part of a scenario or (b) when game time is short. Each person engaged in the heist chooses a different skill. A heist is a group  effort; whether it succeeds depends on the members of the team.</p>
+</div>
+<div class="sect3">
+<h4 id="_planning_the_heist"><a class="anchor" href="#_planning_the_heist"></a><a class="link" href="#_planning_the_heist">Planning the heist</a></h4>
+<div class="paragraph">
+<p>Consider using a <em>preparation montage</em>. Drop the characters into the heist and then use these mechanics and allow the players to describe the heist&#8217;s preparations.</p>
+</div>
+<div class="paragraph">
+<p>Have each player pick an appropriate skill and the group keeps the highest roll. For every success and raise, award the crew a Heist Token.</p>
+</div>
+<div class="paragraph">
+<p>Suggested skills for preparation montages:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Academics</p>
+</li>
+<li>
+<p>Common Knowledge</p>
+</li>
+<li>
+<p>Electronics</p>
+</li>
+<li>
+<p>Hacking</p>
+</li>
+<li>
+<p>Intimidation</p>
+</li>
+<li>
+<p>Persuasion</p>
+</li>
+<li>
+<p>Repair</p>
+</li>
+<li>
+<p>Research</p>
+</li>
+<li>
+<p>Science</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_running_the_heist_scene"><a class="anchor" href="#_running_the_heist_scene"></a><a class="link" href="#_running_the_heist_scene">Running the heist scene</a></h4>
+<div class="paragraph">
+<p>Start the heist&#8217;s Dramatic Task or Quick Encounter. During the heist, the players can redeem Heist Tokens to <em>Influence the Story</em> as per "Using Bennies in Savage Worlds".</p>
+</div>
+<div class="paragraph">
+<p>A player can spend a Benny to influence the narrative, making a story, which allows the player character to</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>use a different skill for a step of the Dramatic Task than the GM determined or</p>
+</li>
+<li>
+<p>call upon help from a Contact or Connections to bypass the challenge.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>You can use a flashback to show what happened to influence the story and facilitate the success of the heist.</p>
+</div>
+<div class="paragraph">
+<p>Examples of influencing the story include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>bribing a guard</p>
+</li>
+<li>
+<p>placing an object that creates a diversion or distraction</p>
+</li>
+<li>
+<p>replacing one object (e.g., a forgery) for another</p>
+</li>
+<li>
+<p>bypassing a security system</p>
+</li>
+<li>
+<p>finding objects (e.g., uniforms, badges) or covers to blend in</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_generating_a_heist"><a class="anchor" href="#_generating_a_heist"></a><a class="link" href="#_generating_a_heist">Generating a heist</a></h4>
+<div class="paragraph">
+<p>Heists are a fixture of a Firefly campaign.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Where these rules come from</div>
+<div class="paragraph">
+<p>See the "Heist Generator" rules (<a href="https://www.drivethrurpg.com/product/290098/Wiseguys-The-Savage-Guide-to-Organized-Crime" class="external" target="_blank" rel="noopener">Wiseguys</a>, 36). Minor tweaks to the original rules are intended to reflect the Firefly setting.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>For each scene of a heist&#8217;s dramatic task or quick encounter, the GM can draw a card for inspiration.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Challenges</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Suit</th>
+<th class="tableblock halign-center valign-top">Theme</th>
+<th class="tableblock halign-left valign-top">Suggested skills</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Clubs</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Complications</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">See <a href="#Complications">Complications</a>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Diamonds</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Barriers</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Athletics, Driving, Electronics, Hacking, Piloting, Repair, Research, Thievery</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Hearts</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Guards</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Athletics, Fighting, Intimidation, Performance, Persuasion, Shooting, Taunt</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Spades</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Subterfuge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Common Knowledge, Electronics, Hacking, Notice, Repair, Research, Stealth</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="Complications"><a class="anchor" href="#Complications"></a><a class="link" href="#Complications">Complications</a></h5>
+<div class="paragraph">
+<p>If you draw a club, compare the card value against the table below.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 12.5%;">
+<col style="width: 25%;">
+<col style="width: 62.5%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Card</th>
+<th class="tableblock halign-center valign-top">Nature</th>
+<th class="tableblock halign-left valign-top">Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Trap</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">They seemed to know that you were coming. But how did they know?</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Recent change</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A password, lock, or  combination was altered. What now?</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Surveillance</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The crew&#8217;s activities has been noticed and monitored.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Unforeseen bystanders</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">These people were not supposed to be in the location at this time!</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Rival crew</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">There&#8217;s another crew pulling the same caper or watching the crew pull it off.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Unforeseen security</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The guards were not supposed to be on duty at this location at this time. For some reason, the guard rotation changed.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Questionable cover identity</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A crew members cover ID or disguise raises questions by someone at the target site. This could be a blown cover, where a crew member is recognized, or a coincidental case of mistaken identity.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">9</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Malfunction</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A device vital to the heist acts up, glitches out, or breaks</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Alarm systems upgraded</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">These systems are more advanced than your intel revealed.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Jack</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Illness or Injury</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A crew member or ally is injured or taken out of the heist at a bad time.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Queen</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Fire!</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Grab an extinguisher. But this could be a useful distraction of you can play it right.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">King</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Unforeseen maintenance</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recent  construction work affects the layout or access/egress points of the location.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Ace</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Bogies</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Military, lawmen, or gangsters are active in the location for some reason at this time.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_barriers"><a class="anchor" href="#_barriers"></a><a class="link" href="#_barriers">Barriers</a></h5>
+<div class="paragraph">
+<p>Barriers make a location difficult to access. Barriers are inanimate, unlike guards.
+Examples of barriers include</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>fence/wall</p>
+</li>
+<li>
+<p>door/lock</p>
+</li>
+<li>
+<p>moat</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Skill use examples:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Hacking (bypass monitoring system)</p>
+</li>
+<li>
+<p>Electronics (disable security panel)</p>
+</li>
+<li>
+<p>Thievery (forge an ID badge, copy a key, pick a lock)</p>
+</li>
+<li>
+<p>Athletics (scale a wall)</p>
+</li>
+<li>
+<p>Research or Networking (discover plans to the target location)</p>
+</li>
+<li>
+<p>Repair (create a breach by using explosives)</p>
+</li>
+<li>
+<p>Piloting or Driving (accessing or escaping from a hard to reach location)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_guards"><a class="anchor" href="#_guards"></a><a class="link" href="#_guards">Guards</a></h5>
+<div class="paragraph">
+<p>Examples of guards include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>guard dogs</p>
+</li>
+<li>
+<p>robotic sentries or drones</p>
+</li>
+<li>
+<p>private security</p>
+</li>
+<li>
+<p>protective staff (managers and supervisors, receptionists)</p>
+</li>
+<li>
+<p>interested third parties (journalists)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Examples of skills used to bypass guards include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Performance</strong> and a convincing cover story or bogus identity</p>
+</li>
+<li>
+<p><strong>Shooting</strong> to take out a guard (lethal) or deliver a knockout drug/poison</p>
+</li>
+<li>
+<p><strong>Survival</strong> to distract or lure away a guard animal</p>
+</li>
+<li>
+<p><strong>Athletics</strong> to lob a knockout grenade in the right spot to incapacitate the guards</p>
+</li>
+<li>
+<p><strong>Healing</strong> to cook up a treat that will disable or distract the guards</p>
+</li>
+<li>
+<p><strong>Common Knowledge</strong> or <strong>Research</strong> to know the timing and details of guard shift changes</p>
+</li>
+<li>
+<p><strong>Stealth</strong> to sneak up on a guard and administer a sedative or a chloroform-like substance</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_subterfuge"><a class="anchor" href="#_subterfuge"></a><a class="link" href="#_subterfuge">Subterfuge</a></h5>
+<div class="paragraph">
+<p>You need to get around or avoid security measures.</p>
+</div>
+<div class="paragraph">
+<p>Examples of skills for subterfuge elements of the heist include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Persuasion (fast talking)</p>
+</li>
+<li>
+<p>Stealth</p>
+</li>
+<li>
+<p>Athletics</p>
+</li>
+<li>
+<p>Electronics</p>
+</li>
+<li>
+<p>Hacking</p>
+</li>
+<li>
+<p>Repair</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

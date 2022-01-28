@@ -2,6 +2,8 @@ site:
   title: My Demo Site
   url: https://docs.demo.com
   start_page: savagery::index.adoc
+runtime:
+  fetch: true   
 content:
   sources:
   # - url: https://gitlab.com/antora/demo/demo-component-a.git
@@ -11,5 +13,7 @@ content:
   #   start_path: docs
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ui-bundle.zip
+    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  supplemental_files: ./supplemental_ui    

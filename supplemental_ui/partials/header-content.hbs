@@ -2,10 +2,13 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}</a>
-      {{#if env.DOCSEARCH_ENABLED}}
+      {{!-- {{#if env.DOCSEARCH_ENABLED}}
         <div class="navbar-item">
           <input id="search-input" type="text" placeholder="Search docs">
         </div>
+      {{/if}} --}}
+      {{#if env.SITE_SEARCH_PROVIDER}}
+      <input id="search-input" type="text" placeholder="Search the docs">
       {{/if}}
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>

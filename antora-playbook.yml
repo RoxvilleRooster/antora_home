@@ -2,8 +2,8 @@ antora:
   extensions:
   - '@antora/lunr-extension'
 site:
-  title: My Demo Site
-  url: https://docs.demo.com
+  title: Savage Worlds of the Roxville Rooster
+  url: https://roxvillerooster.github.io/antora_home/savagery
   start_page: savagery::index.adoc
 runtime:
   fetch: true   

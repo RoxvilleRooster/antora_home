@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Using Roll20 as the virtual tabletop platform :: Savage Worlds of the Roxville Rooster</title>
+    <link rel="canonical" href="https://roxvillerooster.github.io/antora_home/savagery/savagery/ops/roll20.html">
+    <meta name="generator" content="Antora 3.1.2">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://roxvillerooster.github.io/antora_home/savagery">Savage Worlds of the Roxville Rooster</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+<!--        
+        <a class="navbar-item" href="#">Home</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+-->
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="savagery" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Savage Worlds Content</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../settings/pulp_setting_rules.html">Classic two-fisted pulp adventures</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../settings/pulp_intro.html">Playing the pulp action game</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../settings/pulp_character_creation.html">Create your pulp hero</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../settings/pulp_archetypes.html">Archetypes for pulp action characters</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../settings/pulp_stuff.html">Equipment and Vehicles</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../settings/pulp_colophon.html">References</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../settings/firefly_swade.html">Firefly</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../settings/Savage_Musketeers.html">Musketeers</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../settings/Savage_Three_Rocketeers.html">Rocketeers</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Weird Wars Rome</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../settings/wwr_swade_conversion.html">Weird Wars Rome Conversion</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../settings/wwr_campaign.html">Campaign for Weird Wars Rome - Beyond the Wall</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../settings/savage_espionage.html">Savage Espionage</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../rules/wealth_sw.html">Wealth</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">VTT</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="VTT_considerations.html">VTT play</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="roll20.html">Using Roll20 as the virtual tabletop platform</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Savage Worlds Content</span>
+    <span class="version">master</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Savage Worlds Content</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">master</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Savage Worlds Content</a></li>
+    <li>VTT</li>
+    <li><a href="roll20.html">Using Roll20 as the virtual tabletop platform</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/RoxvilleRooster/savagery/edit/master/modules/ops/pages/roll20.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Using Roll20 as the virtual tabletop platform</h1>
+<div class="sect1">
+<h2 id="_bennies"><a class="anchor" href="#_bennies"></a>Bennies</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We use a deck of Tokens for these.
+This deck may vary depending on the genre of the game.</p>
+</div>
+<div class="paragraph">
+<p>To access your stack of bennies, click the benny token above your name at the bottom of the screen (in a semi-transparent box).
+To spend a benny, click the token and drag it to the tabletop.
+If you spend a benny by mistake, right-click it and select <strong>Take Card</strong> to put it back in your hand.
+To close the view of your bennies, click the benny token above your name at the bottom of the screen.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_initiative"><a class="anchor" href="#_initiative"></a>Initiative</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We deal cards for the turn order.
+If you have an edge of other modifier that effects cards, make sure it is known to the GM.
+If the GM forgets, remind him.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_status_conditions"><a class="anchor" href="#_status_conditions"></a>Status conditions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The following token overlays are used to indicate status/conditions in combat.
+Of course, other tokens may also be used as needed.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Status token overlays</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Condition</th>
+<th class="tableblock halign-left valign-top">Stats indicator overlay</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aiming</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/target.PNG" alt="Aim"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bound</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/net.PNG" alt="Bound"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cover</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/tower.PNG" alt="Cover"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">light cover::
+set overlay number to 2 or leave unset
+medium cover::
+set overlay number to 4
+heavy cover::
+set overlay number to 6
+full cover::
+set overlay number to 8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distracted</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/screaming_brain.PNG" alt="Distracted"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dead</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/red_x.PNG" alt="Dead"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Or just remove the token (a/k/a "off the table")</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Defend</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/shield.PNG" alt="Defend"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Entangled</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/entangle.png" alt="Entangled"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Hold</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/time.PNG" alt="Hold"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Character is holding his action</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mind Affected</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/sanity.png" alt="Sanity damaged"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Affected by fear, insanity, confusion, or charm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Shaken</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/melty_face.PNG" alt="Shaken"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Stealth</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/ninja.PNG" alt="Stealth"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Indicates that a character is <strong>successfully</strong> using Stealth to avoid detection</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Stunned</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/stunned.png" alt="Stunned"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vulnerable</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="_images/arrows_in_back.PNG" alt="Vulnerable"></span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_changes_to_your_roll20_settings"><a class="anchor" href="#_changes_to_your_roll20_settings"></a>Changes to your Roll20 settings</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <strong>My Settings</strong> (the gear icon)  in the top right corner of the Roll20 interface.</p>
+</li>
+<li>
+<p>Change the <strong>Display Name</strong> to your character&#8217;s main name. Click <strong>Save Name</strong>.</p>
+</li>
+<li>
+<p>Ensure the following boxes are checked:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Use advanced keyboard shortcuts</strong></p>
+</li>
+<li>
+<p><strong>Enabled background chat beep</strong></p>
+</li>
+<li>
+<p><strong>Enable advanced dice (dice icons, drag and drop, etc.)</strong></p>
+</li>
+<li>
+<p><strong>Enable chat avatars</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Set <strong>Player video/avatar size:</strong> to <code>Names Only</code>.</p>
+</li>
+<li>
+<p>Set <strong>Chat Tech</strong> to <code>None (no video/audio)</code>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+<script src="../../_/js/vendor/lunr.js"></script>
+<script src="../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../.." data-snippet-length="100" data-stylesheet="../../_/css/search.css"></script>
+<script async src="../../search-index.js"></script>
+  </body>
+</html>

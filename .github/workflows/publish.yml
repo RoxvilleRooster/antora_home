@@ -2,7 +2,10 @@ name: Publish to GitHub Pages
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main]  
+  repository_dispatch:
+      types: [publish]
+   
 jobs:
   build:
     runs-on: ubuntu-latest
